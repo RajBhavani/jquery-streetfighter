@@ -1,0 +1,64 @@
+body {
+	background: #000;
+}
+
+main {
+	background: #fff;
+	margin: 110px 0 0;
+	padding: 0 0 0 100px;
+	min-width: 1200px;
+	height: 500px;
+	display: block;
+	position: relative;
+}
+
+
+.instructions {
+	position: absolute;
+	left: 659px;
+	top: 0;
+	margin: 2em;
+}
+.instructions h1 {
+	font-weight: bold;
+	margin: 1em 0;
+}
+.instructions dt {
+	opacity: 0.7;
+	margin: 1em 0 0;
+}
+.instructions dd {
+	margin: 0 0 1em;
+}
+
+
+.ryu {
+	float: left;
+	width: 659px;
+	height: 494px;
+	background-repeat: no-repeat;
+}
+.ryu-still {
+	background: url('../images/ryu-standing-still.png');
+}
+.ryu-cool {
+	background: url('../images/ryu-cool.gif');
+}
+.ryu-ready {
+	background: url('../images/ryu-ready-position.gif');
+}
+.ryu-throwing {
+	background: url('../images/ryu-throwing-hadouken.png');
+}
+
+
+.hadouken {
+	display: none;
+	background-image: url('../images/hadouken.gif');
+	width: 156px; 
+	height: 90px;
+	position: relative;
+	top: 167px;
+	left: -212px;
+	float: left;
+}
