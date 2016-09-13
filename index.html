@@ -8,6 +8,21 @@
 </head>
 <body>
 	<div class="main-container">
+		
+		<div class="instructions">
+			<h1>Thinkful Streetfighter</h1>
+			<dl>
+				<dt>Ready to attack:</dt>
+				<dd>Mouse over Ryu</dd>
+				<dt>Attack (hadouken):</dt>
+				<dd>Hold down mouse button</dd>
+				<dt>Pose</dt>
+				<dd>Hold down '<kbd>x</kbd>' (while not attacking)</dd>
+			</dl>
+		</div>
+		<div class="ryu ryu-still"></div>
+		<div class="hadouken"><audio id="hadouken-sound" src="sound/hadouken.mp3"></div>
+	</main>
 
 		<div class="ryu">
 			<div class="ryu-still"></div>
@@ -19,7 +34,7 @@
 		</div>
 
 	</div> <!-- /.main-container -->
-<audio id="hadouken-sound" src="hadouken.mp3">
+
 	<script src="jquery-1.8.3.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
